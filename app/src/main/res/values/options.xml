@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cmbOptions">
+        <item>Fahrenheit a Celsius</item>
+        <item>Celsius a Fahrenheit</item>
+    </string-array>
+</resources>
