@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    // Method for convert fahrenheit to celsius
     public double convFahToCel() {
         double fahrenheit = Double.parseDouble(String.valueOf(edtGrade.getText()));
         double celsius = 0.0;
@@ -76,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
         return celsius;
     }
 
+    // Method for convert celsius to fahrenheit
     public double convCelToFah() {
         double celsius = Double.parseDouble(String.valueOf(edtGrade.getText()));
         double fahrenheit = 0.0;
